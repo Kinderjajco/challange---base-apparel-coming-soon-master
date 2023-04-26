@@ -1,0 +1,144 @@
+
+
+:root{
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+
+html{
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: var(--Light-Grayish-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    width: 750px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+aside h1{
+    max-width: 330px;
+    margin-top: 30px;
+    font-weight: 700;
+    color: var(--Desaturated-Dark-Blue);
+}
+aside h3{
+    max-width: 350px;
+    font-size: 100%;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+}
+
+.drawers{
+    width: 360px;
+    height: 300px;
+    position: relative;
+    left: -150px;
+    top: -13px; 
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;  
+    object-position: -380% 0; 
+}
+figure{
+    width: 215px;
+}
+
+.profile-photo img{
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+}
+
+.profile-photo{
+    display: flex;
+    margin-top: 30px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -40px;
+    left: 60px;
+}
+.right-side p{
+    margin: 0;
+    margin-top: 1px;
+
+}
+
+.name-person{
+    font-weight: 700;
+    font-size: 110%;
+    color: var(--Very-Dark-Grayish-Blue);
+}
+.date-born{
+    color: var(--Grayish-Blue);
+    font-size: 110%;
+}
+.share{
+    border: none;
+    position: absolute;
+    top: 550px;
+    left: 1270px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    
+}
+.share:focus{
+    background-color: var(--Very-Dark-Grayish-Blue);
+    
+}
+.share-box{
+    width: 150px;
+    height: 33px;
+    background-color: var(--Very-Dark-Grayish-Blue);
+    border-radius: 8px;
+    
+}
+.share-box p{
+    color: var(--Desaturated-Dark-Blue);
+    font-weight: 400;
+    font-size: 70%;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    position: relative;
+    
+    
+}
+.share-box img{
+    width: 12px;
+    height: 12px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.share-box{
+    display: flex;
+    position: relative;
+    left: 275px;
+    bottom: 110px;
+}
+
+/* .triangle{
+    height: 0px;
+    width: 0px;
+    border-style: solid;
+    border-width: 10px 5px 0 5px;
+    border-color: var(--Very-Dark-Grayish-Blue);
+    position: relative;
+    top: 100px;
+} */
